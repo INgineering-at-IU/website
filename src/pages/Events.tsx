@@ -17,7 +17,7 @@ function EventPage() {
         <div>
             <HeroPage isHomePage={false} InitialText={<EventTextPage />} />
             <div className='flex w-screen justify-center'>
-            <div className="gap-6 gap-x-10 grid-cols-3 grid h-screen p-5">
+            <div className="gap-6 gap-x-10 md:grid-cols-3 grid-cols-1 grid md:h-screen p-5">
                 {events.map((event, index) => 
                     <Event
                         key={index} 

@@ -33,7 +33,7 @@ export default function SocialsPage(){
         }
     ];
     return (
-        <div className="flex flex-col justify-center h-30vh items-center py-5 bg-stone-800">
+        <div className="flex flex-col justify-center h-30vh items-center py-5 bg-[#5C658E]">
         <div className="flex justify-center align-center w-screen gap-x-6">
         {socials.map((social, index) => (
             <motion.div key={index}

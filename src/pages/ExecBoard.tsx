@@ -1,27 +1,12 @@
 
 import SocialsPage from '../components/Socials'
-import AboutUsPage from '../components/AboutUs'
-import WhatWeDoPage from '../components/WhatWeDo'
 import HeroPage from '../components/Landing'
 import ExecTextPage from '../components/ExecText'
 import ExecMemberPage from '../components/ExecMember'
 
 function ExecPage() {
     const execMembers = [
-        {
-            name: "Rabia",
-            position: "President",
-            grade: "Senior",
-            href: "../Headshots/RabiaINHeadshot.jpg",
-            color: "bg-white"        
-        },
-        {
-            name: "Aidan",
-            position: "Vice President",
-            grade: "Senior",
-            href: "../Headshots/AidanINHeadshot.png",
-            color: "bg-zinc-100"        
-        },
+        
         {
             name: "Emilio",
             position: "Director of Technology",
@@ -38,7 +23,7 @@ function ExecPage() {
         },
         {
             name: "Thomas",
-            position: "Vice President",
+            position: "Director of Membership",
             grade: "Freshman",
             href: "../Headshots/ThomasINHeadshot.png",
             color: "bg-white"        
@@ -49,6 +34,20 @@ function ExecPage() {
             grade: "Freshman",
             href: "../Headshots/JoshuaINHeadshot.png",
             color: "bg-zinc-100"
+        },
+        {
+            name: "Aidan",
+            position: "Vice President",
+            grade: "Senior",
+            href: "../Headshots/AidanINHeadshot.png",
+            color: "bg-zinc-100"        
+        },
+        {
+            name: "Rabia",
+            position: "President",
+            grade: "Senior",
+            href: "../Headshots/RabiaINHeadshot.jpg",
+            color: "bg-white"        
         },
     ]
 

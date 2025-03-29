@@ -1,6 +1,5 @@
 import "hamburgers/_sass/hamburgers/hamburgers.scss";
 import HamburgerMenu from "./Hamburger";
-import { useState } from "react";
 
 interface NavbarProps {
     isOpen: boolean;
@@ -9,7 +8,7 @@ interface NavbarProps {
 
 export default function Navbar({ isOpen, setIsOpen }: NavbarProps){
     return(
-        <div className="w-screen flex h-[10vh] bg-[#292524] p-5">
+        <div className="w-screen flex h-[10vh] bg-[#5C658E] p-5">
             <div className="flex items-center w-screen px-5">
               <div className="flex items-center mr-auto">
                 <img 
