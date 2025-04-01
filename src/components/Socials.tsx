@@ -5,29 +5,29 @@ export default function SocialsPage(){
     const socials = [
         {
             name: "instagram",
-            image: "../public/INInsta.png",
+            image: "./INInsta.png",
             href: "https://www.instagram.com/iu_ingineering_club/"
         },
         {
             name: "beINvolved",
-            image: "../public/beINvolved.png",
+            image: "./beINvolved.png",
             href: "https://beinvolved.indiana.edu/organization/ingineering"
 
         },
         {
             name: "discord",
-            image: "../public/discord.png",
+            image: "./discord.png",
             href: "https://discord.gg/ukaT34ykq3"
         },
         {
             name: "GroupMe",
-            image: "../public/GroupMe.png",
+            image: "./GroupMe.png",
             href: "https://groupme.com/join_group/89333971/NHDkWaZg"
 
         },
         {
             name: "X",
-            image: "../public/X.png",
+            image: "./X.png",
             href: "https://discord.gg/ukaT34ykq3"
 
         }

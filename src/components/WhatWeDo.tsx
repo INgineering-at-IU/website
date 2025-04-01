@@ -32,7 +32,7 @@ export default function WhatWeDoPage() {
       {/* Background Logo */}
       <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center overflow-hidden z-0 brightness-90">
         <img
-          src="./LogoAssets/TransparentLogo.png"
+          src="./TransparentLogo.png"
           className="max-w-full max-h-full object-contain filter invert opacity-20 md:opacity-100"
           alt="Background Image Transparent Logo"
         />
