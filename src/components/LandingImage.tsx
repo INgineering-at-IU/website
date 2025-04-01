@@ -7,13 +7,13 @@ interface LandingImageProps {
 
 export default function LandingImage({ isHomePage }: LandingImageProps) {
   const images = [
-    "../3.png",
-    "../4.png",
-    "../5.png",
-    "../6.png",
-    "../7.png",
-    "../8.png",
-    "../2.png",
+    "./3.png",
+    "./4.png",
+    "./5.png",
+    "./6.png",
+    "./7.png",
+    "./8.png",
+    "./2.png",
   ];
 
   const [visible, setVisible] = useState(Array(images.length).fill(false));

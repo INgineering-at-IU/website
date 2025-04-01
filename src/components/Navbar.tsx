@@ -12,7 +12,7 @@ export default function Navbar({ isOpen, setIsOpen }: NavbarProps){
             <div className="flex items-center w-screen px-5">
               <div className="flex items-center mr-auto">
                 <img 
-                src="../LogoAssets/TransparentLogo.png"
+                src="./TransparentLogo.png"
                 className="filter invert"
                 width={40}
                 />
