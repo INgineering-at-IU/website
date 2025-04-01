@@ -22,13 +22,13 @@ export default function SocialsPage(){
         {
             name: "GroupMe",
             image: "./GroupMe.png",
-            href: "https://groupme.com/join_group/89333971/NHDkWaZg"
+            href: "https://groupme.com/join_group/89333971/ghCpcuYF"
 
         },
         {
             name: "X",
             image: "./X.png",
-            href: "https://discord.gg/ukaT34ykq3"
+            href: "https://x.com/iu_ingineering?s=21"
 
         }
     ];

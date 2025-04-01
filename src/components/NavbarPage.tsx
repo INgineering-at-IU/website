@@ -1,7 +1,14 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function NavbarPage() {
+  const navigate = useNavigate();
+  
+  const handleNavigation = (path: string): void => {
+    navigate(path);
+    setTimeout((() => window.location.reload()),100)
+  };
+
   return (
     <div className="md:w-[50vw] flex justify-center">
       <motion.ul
@@ -35,10 +42,11 @@ export default function NavbarPage() {
                 delay: index * 0.2,
               },
             }}
+            onClick={() => handleNavigation(item.href)}
           >
-            <Link to={item.href} style={{ all: "unset" }}>
+            <div style={{ all: "unset", cursor: "pointer" }}>
               {item.name}
-            </Link>
+            </div>
           </motion.li>
         ))}
       </motion.ul>

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function WhatWeDoPage() {
   return (
@@ -11,7 +12,7 @@ export default function WhatWeDoPage() {
           <p className="font-medium text-base md:text-xl px-2 md:px-20">
             We host events, workshops, and share opportunities so the engineers of IU can develop their skills. Interested in joining?
           </p>
-          <a href="/join">
+          <Link to="/join">
             <motion.button
               className="mx-auto w-40 md:w-[15vw] mt-5 text-white border-4 md:border-8 border-[#940600] px-4 py-2 rounded-lg transition-all duration-300"
               style={{ backgroundColor: "#940600" }}
@@ -25,7 +26,7 @@ export default function WhatWeDoPage() {
             >
               <span className="font-bold">Join Now!</span>
             </motion.button>
-          </a>
+          </Link>
         </div>
       </div>
 
