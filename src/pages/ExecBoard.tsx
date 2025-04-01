@@ -11,42 +11,42 @@ function ExecPage() {
             name: "Emilio",
             position: "Director of Technology",
             grade: "Freshman",
-            href: "../Headshots/EmilioINHeadshot.jpg",
+            href: "../EmilioINHeadshot.jpg",
             color: "bg-white"
         },
         {
             name: "Sope",
             position: "Director of Marketing",
             grade: "Freshman",
-            href: "../Headshots/SopeINHeadshot.jpg",
+            href: "../SopeINHeadshot.jpg",
             color: "bg-zinc-100"
         },
         {
             name: "Thomas",
             position: "Director of Membership",
             grade: "Freshman",
-            href: "../Headshots/ThomasINHeadshot.png",
+            href: "../ThomasINHeadshot.png",
             color: "bg-white"        
         },
         {
             name: "Joshua",
             position: "Director of Operations",
             grade: "Freshman",
-            href: "../Headshots/JoshuaINHeadshot.png",
+            href: "../JoshuaINHeadshot.png",
             color: "bg-zinc-100"
         },
         {
             name: "Aidan",
             position: "Vice President",
             grade: "Senior",
-            href: "../Headshots/AidanINHeadshot.png",
+            href: "../AidanINHeadshot.png",
             color: "bg-zinc-100"        
         },
         {
             name: "Rabia",
             position: "President",
             grade: "Senior",
-            href: "../Headshots/RabiaINHeadshot.jpg",
+            href: "../RabiaINHeadshot.jpg",
             color: "bg-white"        
         },
     ]

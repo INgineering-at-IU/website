@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "https://ingineering-at-iu.github.io/website/",
+  "homepage": "https://ingineering-at-iu.github.io/website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npx gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.8",
