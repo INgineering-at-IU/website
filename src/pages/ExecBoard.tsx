@@ -14,13 +14,14 @@ function ExecPage() {
             href: "./EmilioINHeadshot.jpg",
             color: "bg-white"
         },
-        {
-            name: "Sope",
+            {
+            name: "Natalie",
             position: "Director of Marketing",
-            grade: "Freshman",
-            href: "./SopeINHeadshot.jpg",
-            color: "bg-zinc-100"
+            grade: "Sophomore",
+            href: "./Natalie.png",
+            color: "bg-white"        
         },
+
         {
             name: "Thomas",
             position: "Director of Membership",
