@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import React from 'react';
 
 interface ExecMemberProps {
   name: string;
@@ -8,12 +9,12 @@ interface ExecMemberProps {
   color: string;
 }
 
-export default function ExecMemberPage({
+const ExecMemberPage: React.FC<ExecMemberProps> = ({
   name,
   position,
   href,
   color
-}: ExecMemberProps) {
+}) => {
   return (
     <motion.div
       className={`h-screen w-screen ${color} flex items-center justify-around`}
@@ -38,3 +39,5 @@ export default function ExecMemberPage({
     </motion.div>
   );
 }
+
+export default ExecMemberPage;
