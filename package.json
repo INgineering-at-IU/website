@@ -1,6 +1,6 @@
 {
-  "name": "website-test",
-  "homepage": "https://alexjohnsoniucs.github.io/IngeneeringtestWeb",
+  "name": "website",
+  "homepage": "https://ingineering-at-iu.github.io/website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
