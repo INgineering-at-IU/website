@@ -1,0 +1,4 @@
+# INgineering website
+
+## What is INgineering?
+INgineering at IU is a student-led 501 (c)(3) professional development organization that provides opportunities to students to further their experience in the domain of Engineering and Technology. To fulfill this task, we supplement students' knowledge through projects, professional development, networking opportunities, and community engagement. The organization promotes the study and exploration of the fields of engineering field, and tech industry. Overall, it provides opportunities to Hoosiers who seek to further develop their knowledge of the industries beyond the classroom, and equip themselves to become the tech leaders of tommorrow.
