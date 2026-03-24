@@ -27,6 +27,12 @@ function ExecPage() {
             color: "bg-zinc-100"
         },
         {
+          name: "Mark Chakanjsilp",
+          position: "Director of Membership",
+          href: "./IMG_8637.jpeg",
+          color: "bg-white"
+        },
+        {
             name: "Rabia",
             position: "President",
             href: "./President-new.jpeg",

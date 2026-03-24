@@ -20,6 +20,7 @@ export default function NavbarPage() {
         {[
           { name: "Home", href: "/" },
           { name: "Executive Board", href: "/exec" },
+          { name: "Previous Exec Board", href: "/previous-exec" },
           { name: "Event Schedule", href: "/events" },
           { name: "Reach Out", href: "/join" },
         ].map((item, index) => (
