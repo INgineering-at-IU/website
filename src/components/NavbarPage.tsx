@@ -22,6 +22,7 @@ export default function NavbarPage() {
           { name: "Executive Board", href: "/exec" },
           { name: "Previous Exec Board", href: "/previous-exec" },
           { name: "Event Schedule", href: "/events" },
+          { name: "Sponsors", href: "/sponsors" },
           { name: "Reach Out", href: "/join" },
         ].map((item, index) => (
           <motion.li
